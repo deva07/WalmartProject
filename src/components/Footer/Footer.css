@@ -1,0 +1,160 @@
+.Footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    width: 100%;
+    padding: 30px;
+    font-family: DejaVu Sans Mono;
+}
+
+.Footer-top button {
+    margin: 15px 0px 0px 45px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 9999px;
+    border: none;
+}
+
+.Footer-bottom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 70px;
+    background-color: #0071dc;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.AllDepartments {
+    text-decoration: none;
+    color: white;
+}
+
+.StoreDirectory {
+    text-decoration: none;
+    color: white;
+}
+
+.Careers {
+    text-decoration: none;
+    color: white;
+}
+
+.OurCompany {
+    text-decoration: none;
+    color: white;
+}
+
+.SellOn {
+    text-decoration: none;
+    color: white;
+}
+
+.ProductRecalls {
+    text-decoration: none;
+    color: white;
+}
+
+.Accessibility {
+    text-decoration: none;
+    color: white;
+}
+
+.Help {
+    text-decoration: none;
+    color: white;
+}
+
+.VaccineSchedular {
+    text-decoration: none;
+    color: white;
+}
+
+.TaxExempt {
+    text-decoration: none;
+    color: white;
+}
+
+.Footer-bottom-middle {
+    background-color: #0071dc;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 14px;
+    padding: 7px 0px 7px 90px;
+}
+
+.Footer-middle-end {
+    background-color: #0071dc;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 520px;
+    gap: 17px;
+}
+
+.Footer-End {
+    display: flex;
+    align-items: center;
+    background-color: #0071dc;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0px 25px 550px;
+}
+
+@media (max-width:1170px) {
+    .Footer-bottom {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 20px 40px;
+        background-color: #0071dc;
+        width: 100%;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Footer-bottom-middle {
+        background-color: #0071dc;
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 10px;
+        padding: 7px 0px 7px 50px;
+    }
+
+    .Footer-middle-end {
+        background-color: #0071dc;
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0px 10px 450px;
+        gap: 17px;
+    }
+
+    .Footer-End {
+        display: flex;
+        align-items: center;
+        background-color: #0071dc;
+        color: white;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 0px 25px 480px;
+    }
+}

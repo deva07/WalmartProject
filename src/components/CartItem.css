@@ -1,0 +1,161 @@
+.CartItem
+{
+    width: 66.666667%;
+    padding-right: 70px;
+    font-family: Comic Sans MS;
+}
+
+.Shop-Cart
+{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.Shop-Container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.Close-icon
+{
+    font-size: 20px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.Close-icon:hover
+{
+    color: #660000;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.Shop-Image
+{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.Item-list
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Cart-Title{
+    width: 208px;
+}
+
+.Cart.Price
+{
+    width: 40px;
+    color: green;
+}
+
+.Shop-Quantity {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-weight: 600;
+    color: gray;
+    padding: 10px;
+    border: 1px solid;
+    width: 208px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.Quantity-container{
+    font-size: 18px;
+}
+
+.Cart-btn {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.Cart-Add {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 0px 8px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.Cart-Minus {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 0px 8px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.Cart-Add:hover {
+    background-color: #616161;
+    color: white;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.Cart-Minus:hover {
+    background-color: #455A64;
+    color: white;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.reset-Cart
+{
+    background: rgba(239, 68, 68);
+    border: none;
+    color: white;
+    margin-top: 32px;
+    margin-left: 28px;
+    padding: 4px 24px;
+    font-size: 18px;
+    outline: none;
+}
+
+.reset-Cart:hover
+{
+    background: rgb(153, 27, 27);
+    transition-duration: 400ms;
+}
+
+.Go-shop
+{
+    margin-top: 32px;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: red;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.Go-shop:hover
+{
+    color: black;
+    transition-duration: 400ms;
+}

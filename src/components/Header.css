@@ -1,0 +1,327 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+  .Header 
+  {
+    display: flex;
+    align-items: center;
+    background-color: #0071dc;
+    color: #ffffff;
+    padding: 12px;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+  }  
+  .Header-Part
+  {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }  
+  .App-header
+  {
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+  }  
+  .Walmart-Image
+  {
+    height: 50px;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  .Walmart-Image:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+}
+.menu-icon
+{
+  display: flex;
+  align-items: center;
+}
+.department
+{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.icon
+{
+  font-size: 17px;
+}
+.department:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+}
+.service
+{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 12px;
+    cursor: pointer;
+    gap: 8px;
+}
+.service:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+}
+.para
+{
+  padding-left: 5px;
+}
+.searchBox
+{
+  position: relative;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.search
+{
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.searchBox button
+{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(0.9);
+  background-color: green;
+  color: #ffffff;
+}
+
+.menu-icon
+{
+  font-size: 1.5em;
+  display: none;
+}
+
+@media(max-width:1170px)
+{
+  .searchBox button 
+  {
+    position: absolute;
+  }
+  .Header p 
+  {
+    position: fixed;
+    top: 100px;
+    display: none;
+  }
+  .icon 
+  {
+    display: none;
+  }
+  .menu-icon
+  {
+    display: block;
+  }
+  .SubHeader-navbar p
+  {
+    display: none;
+  }
+}
+ .myitems
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.split-para
+{
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.myitems:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+} 
+ .signin
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    gap: 10px;
+}
+.signin:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+}
+.cartbox
+{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.cartbox:hover
+{
+  background-color: #045eb2;
+  border-radius: 9999px;
+}
+.cart 
+{
+    width: 25px;
+    height: 25px;
+}
+
+.cart-counter
+{
+  background-color: yellow;
+  color: darkblue;
+  border-radius: 9999px;
+  top: 25px;
+  right: 23px;
+  padding: 0px 2px;
+  position: absolute;
+}
+
+.cart-dollar
+{
+  margin: 30px 0px -35px -30px;
+  position: absolute;
+  width: 44px;
+  padding: 2px;
+  height: 25px;
+  background-color: #0071dc;
+}
+
+.SubHeader
+{
+  width: 100%;
+  background-color: #0071dc;
+  height: 50px;
+  border-top: 2px solid white;
+  /* margin-top: 2px; */
+  padding: 10px;
+  color: #f2f2f2;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Hand-Image
+{
+  height: 35px;
+  width: 35px;
+}
+
+.SubHeader-container
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.slap-icon
+{
+  padding: 0px 5px;
+}
+
+.SubHeader-Location
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.SubHeader-Area
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 80px 0px 10px;
+}
+
+.SubHeader-navbar
+{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.SubHeader-navbar p:hover
+{
+  text-decoration: underline;
+}
+
+.Deals
+{
+  text-decoration: none;
+  color: white;
+}
+
+.MotherDay
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Grocery
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Homes
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Tech
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Fashion
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Auto
+{
+  text-decoration: none;
+  color: white;
+}
+
+.Registry
+{
+  text-decoration: none;
+  color: white;
+}

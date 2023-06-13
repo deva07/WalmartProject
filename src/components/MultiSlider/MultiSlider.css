@@ -1,0 +1,42 @@
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+   background: white;
+   width: 47px;
+   height: 104px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 1;
+}
+
+.slick-prev {
+   left: 0;
+}
+
+.slick-next {
+   right: 0;
+}
+
+.slick-prev::before,
+.slick-next::before {
+   display: none;
+}
+
+.Multi-image:hover {
+   transform: scale(1.1);
+   transition: 500ms;
+}
+
+/* .sunlightflower
+{
+   width: 300px;
+   height: 250px;
+   margin-left: 100px;
+} */
+/* .sunlight-bth
+{
+   position: absolute;
+   left: 9%;
+   padding: 5px;
+   bottom: 30%;
+} */

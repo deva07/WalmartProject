@@ -1,0 +1,341 @@
+.Banner-image {
+    background-color: beige;
+}
+
+.BannerImage-Container {
+    display: flex;
+    padding: 15px;
+}
+
+.Jewel-Product {
+    position: relative;
+}
+
+.Jewel {
+    height: 200px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 0px 25px 0px 8px;
+}
+
+.Jewel-text {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.Jewel-shop {
+    /* position: relative;
+    bottom: 40%;
+    left: 10%; */
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.MomGift-Product {
+    position: relative;
+}
+
+.Mom-Image {
+    width: 700px;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.Mom-text {
+    position: absolute;
+    /* right: 60%; */
+    /* top: 30%; */
+    /* bottom: 70%; */
+    top: 10%;
+    left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+.Mom-subText {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.Gift-shop {
+    position: absolute;
+    color: white;
+    letter-spacing: 1px;
+    /* bottom: 45%; */
+    /* margin-left: 5%; */
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    font-size: 18px;
+    /* right: 70%; */
+    border: none;
+    left: 5%;
+    top: 35%;
+    border-radius: 9999px;
+}
+
+.BagImage {
+    position: relative;
+}
+
+.Bag-Image {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.Bags {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Bag-shop {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.Banner-Middle-Image {
+    display: flex;
+}
+
+.middle-left-image {
+    position: relative;
+    padding: 25px;
+}
+
+.Dress {
+    width: 260px;
+    height: 400px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: -19%;
+
+}
+
+.Dress-text {
+    position: absolute;
+    top: -68%;
+    left: 4%;
+    font-size: 30px;
+    color: white;
+}
+
+.Dress-shop {
+    position: absolute;
+    left: 40px;
+    bottom: 60%;
+    color: black;
+    padding: 6px;
+    border-radius: 9999px;
+    border: none;
+    font-size: 18px;
+}
+
+.NestMini {
+    height: 200px;
+    margin-left: 17px;
+    border-radius: 15px;
+    width: 330px;
+}
+
+.FlashPicks {
+    height: 200px;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.GardenTool {
+    position: absolute;
+    margin: -200px 0px 0px 20px;
+    width: 300px;
+    height: 250px;
+}
+
+.Perfume {
+    margin-left: 20px;
+    border-radius: 15px;
+    height: 200px;
+    width: 260px;
+}
+
+.MomPicture {
+    height: 200px;
+    width: 700px;
+    margin-left: 20px;
+}
+
+.TravelBag {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -150px;
+    height: 350px;
+    width: 300px;
+}
+
+.Banner-Middle-Strip {
+    display: flex;
+    margin: 10px;
+}
+
+.Middle-banner {
+    position: relative;
+}
+
+.sofa-image {
+    height: 500px;
+    width: 480px;
+    opacity: 0.9;
+}
+
+.sofa-text {
+    position: absolute;
+    top: 3%;
+    right: 20%;
+    font-size: 50px;
+    color: white;
+}
+
+.sofa-shop {
+    position: absolute;
+    top: 48%;
+    right: 35%;
+    padding: 8px;
+    border: none;
+    font-size: 18px;
+    background: white;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.Projector Image {
+    position: absolute;
+}
+
+.Projector-Image {
+    margin: 0px 10px 10px 10px;
+    width: 450px;
+    height: 250px;
+}
+
+.Projector-text {
+    position: relative;
+    left: 10%;
+    bottom: 50%;
+    color: white;
+    font-size: 30px;
+}
+
+.projector {
+    position: relative;
+    left: 10%;
+    bottom: 45%;
+    color: white;
+    font-size: 25px;
+}
+
+.shop {
+    position: relative;
+    left: 45%;
+    bottom: 60%;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.AirPods-Image {
+    position: relative;
+}
+
+.AirPods {
+    height: 500px;
+    width: 390px;
+}
+
+.Airpods-text {
+    position: absolute;
+    top: 5%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    left: 10%;
+}
+
+.Airpods-shop {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+.water-can-flower {
+    position: absolute;
+    left: 37%;
+    margin-top: -19%;
+}
+
+.WaterCan-Image {
+    height: 243px;
+    width: 220px;
+}
+
+.water-can-details {
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    left: 5%;
+}
+
+.water-can-price {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 22px;
+    color: black;
+}
+
+.rubber-ring {
+    position: absolute;
+    left: 54%;
+    margin-top: -19%;
+}
+
+.swimming-rubber {
+    height: 243px;
+    width: 220px;
+}
+
+.rubber-text {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 5%;
+    font-size: 30px;
+}
+
+.rubber-shop {
+
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
